@@ -1,0 +1,22 @@
+{
+ "name": "big-test.bin",
+ "chunk_size": 16384,
+ "method": {
+  "compress": "zlib-stored",
+  "encode": "base64",
+  "obfuscation": "xor_123"
+ },
+ "chunks": [
+  "chunks/part_0000.bin",
+  "chunks/part_0001.bin",
+  "chunks/part_0002.bin",
+  "chunks/part_0003.bin",
+  "chunks/part_0004.bin",
+  "chunks/part_0005.bin",
+  "chunks/part_0006.bin",
+  "chunks/part_0007.bin",
+  "chunks/part_0008.bin"
+ ],
+ "sha256": "d2842c9c341495e558b19f9763f2f1dee565e45f1f43b26c6ee44305e03f1b28",
+ "srcSize": 102400
+}
